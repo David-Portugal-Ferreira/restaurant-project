@@ -4,3 +4,22 @@
     justify-content: center;
     width: 70%;
 }
+
+.generalInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    align-self: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.description {
+    padding-bottom: 20px;
+}
