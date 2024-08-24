@@ -1,5 +1,6 @@
-import { wrapper as homeWrapper } from "./initial-page";
-import { wrapper as menuWrapper } from "./menu-page";
+import { wrapper as homeWrapper } from './initial-page';
+import { wrapper as menuWrapper } from './menu-page';
+import { wrapper as contactWrapper } from './contact-page';
 
 import './index.css'
 
@@ -16,4 +17,9 @@ menuBtn.addEventListener('click', () => {
 homeBtn.addEventListener('click', () => {
     divContent.innerHTML = '';
     divContent.appendChild(homeWrapper);
+});
+
+contactBtn.addEventListener('click', () => {
+    divContent.innerHTML = '';
+    divContent.appendChild(contactWrapper);
 })
