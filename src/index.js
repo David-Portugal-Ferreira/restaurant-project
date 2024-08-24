@@ -1,3 +1,19 @@
-const [btn, btn2, btn3] = document.querySelectorAll('nav button');
+import { wrapper as homeWrapper } from "./initial-page";
+import { wrapper as menuWrapper } from "./menu-page";
 
-console.log(btn, btn2, btn3)
+import './index.css'
+
+const divContent = document.querySelector('#content');
+divContent.appendChild(homeWrapper);
+
+const [homeBtn, menuBtn, contactBtn] = document.querySelectorAll('nav button');
+
+menuBtn.addEventListener('click', () => {
+    divContent.innerHTML = '';
+    divContent.appendChild(menuWrapper);
+});
+
+homeBtn.addEventListener('click', () => {
+    divContent.innerHTML = '';
+    divContent.appendChild(homeWrapper);
+})
