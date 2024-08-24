@@ -1,0 +1,23 @@
+.wrapper-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+.generalInfo-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-contact {
+    align-self: center;
+}
+
+.card-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 45px;
+    height: 100px;
+}

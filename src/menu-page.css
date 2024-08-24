@@ -1,25 +1,26 @@
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 70%;
+.wrapper-menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: max-content;
+    gap: 50px;
+    width: 85%;
+    font-size: 16px;
+    line-height: 1.5rem;
 }
 
-.generalInfo {
-    display: flex;
-    flex-direction: column;
-}
-
-.header {
+.header-menu {
     align-self: center;
 }
 
-.card {
+.card-menu {
     display: flex;
     flex-direction: column;
     margin-bottom: 45px;
 }
 
-.description {
+.description-menu {
     padding-bottom: 20px;
+}
+.price-menu {
+    padding-bottom: 10px;
 }

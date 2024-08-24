@@ -10,16 +10,16 @@ divContent.appendChild(homeWrapper);
 const [homeBtn, menuBtn, contactBtn] = document.querySelectorAll('nav button');
 
 menuBtn.addEventListener('click', () => {
-    divContent.innerHTML = '';
+    divContent.replaceChildren();
     divContent.appendChild(menuWrapper);
 });
 
 homeBtn.addEventListener('click', () => {
-    divContent.innerHTML = '';
+    divContent.replaceChildren();
     divContent.appendChild(homeWrapper);
 });
 
 contactBtn.addEventListener('click', () => {
-    divContent.innerHTML = '';
+    divContent.replaceChildren();
     divContent.appendChild(contactWrapper);
 })
