@@ -20,7 +20,7 @@ h2.innerText = 'Information';
 header.appendChild(h2);
 
 image.src = restaurantImage;
-infoCardPhara.innerText = 'True Traditional Portuguese Food';
+infoCardPhara.innerText = 'Authentic Traditional Portuguese Food';
 infoCard.appendChild(image);
 infoCard.appendChild(infoCardPhara);
 
